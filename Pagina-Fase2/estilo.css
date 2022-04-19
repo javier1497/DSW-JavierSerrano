@@ -23,22 +23,23 @@ body{
 	font-family: 'Kaushan Script', cursive;
 	font-size:20px;
 	border-radius:20px 20px 0 0;
-	cursor:pointer;
+ 	cursor:pointer;
 	}
 
 header{
-	position:relative;
-	margin:20px auto;
-	width:1000px;
-	height:120px;
+	position: sticky;
+	margin: auto;
+	width: 1000px;;
+	height:180px;
 	}
-	
+
+
 #logo{
 	position:absolute;
 	top:30px;
 	left:70px;
 	width:600px;
-	height:60px;
+	height:80px;
 	font-family: 'Kaushan Script', cursive;
 	font-size:50px;
 	text-align:center;
@@ -83,8 +84,9 @@ nav{
 	margin: auto;
 	background-color: rgba(17, 0, 255, 0.836);
 	font-size: 20px;
-	margin-bottom: 60px;
 	position: relative;
+	margin-bottom: 20px;
+	z-index: 1;
 	}
 	
 .botones{
@@ -94,6 +96,7 @@ nav{
 }
 
 .botones > li > a{
+	position: inherit;
 	display: block;
 	padding: 15px;
 	color: white;
@@ -199,11 +202,11 @@ aside#izq ul li a{
 	}
 	
 article{
-	position:absolute;
+	position:relative;
 	left:200px;
 	top:0;
 	width:600px;
-	height:1000px;
+	height:1300px;
 	}
 	
 article h1{
@@ -278,13 +281,110 @@ aside#Mockup {
 }
 	
 footer{
-	position:relative;
 	margin: auto;
-	margin-top: 10vw;
-	width:1000px;
-	height:70px;
+	width:100%;
+	height:40px;
 	background:rgba(100,0,255,1);
 	text-align:center;
-	line-height:70px;
+	line-height: 40px;
 	color:white;
+	position:fixed;
+	bottom: 0px;
+ 	cursor:pointer;
 	}
+
+#pagina2 button{
+	
+	background:rgba(100,0,255,1);
+	text-align:center;
+	color:white;
+	position:fixed;
+ 	cursor:pointer;
+}	
+
+
+/* Estilo Para Formulario*/
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ab4493; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #ab4493; 
+	border-color: #ab4493; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 170px;   
+  cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+}
+
+
+span{
+	color: #ab4493; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+
+h1{
+	font-size: 30px;  
+	text-align: letf; 
+	padding-bottom: 20px; 
+	color: #000000;
+}
+
+
+h3{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: #0e0e0e;   
+}
+
+
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
