@@ -1,0 +1,253 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family:'Open Sans';
+	}
+
+
+body{
+	background-size: cover;
+}
+	
+#chat{
+	position:fixed;
+	width:250px;
+	height:40px;
+	bottom:0;
+	right:20px;
+	background:magenta;
+	z-index:1;
+	color:white;
+	text-align:center;
+	line-height:40px;
+	font-family: 'Kaushan Script', cursive;
+	font-size:20px;
+	border-radius:20px 20px 0 0;
+ 	cursor:pointer;
+	}
+
+header{
+	position: sticky;
+	margin: auto;
+	width: 1000px;;
+	height:180px;
+	}
+
+
+#logo{
+	position:absolute;
+	top:30px;
+	left:70px;
+	width:600px;
+	height:80px;
+	font-family: 'Kaushan Script', cursive;
+	font-size:50px;
+	text-align:center;
+	line-height:60px;
+	}
+	
+.redes{
+	position:absolute;
+	width:42px;
+	height:42px;
+	background:#ccc;
+	border-radius:100%;
+	text-align:center;
+	line-height:42px;
+	color:white;
+	}
+	
+#icono1{
+	top:42px;
+	right:120px;
+	background:blue;
+	}
+	
+#icono2{
+	top:42px;
+	right:71px;
+	background:green;
+	}
+	
+#icono3{
+	top:42px;
+	right:19px;
+	background:red;
+	}
+	
+	
+/*------------------------------*/
+
+nav{
+	border-radius: 10px;
+	max-width: 1000px;
+	margin: auto;
+	background-color: rgba(17, 0, 255, 0.836);
+	font-size: 20px;
+	position: relative;
+	margin-bottom: 20px;
+	z-index: 1;
+	}
+	
+.botones{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.botones > li > a{
+	position: inherit;
+	display: block;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.botones > li:hover{
+	background:rgba(18, 18, 19, 0.205);
+}
+ 
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 250px;
+	background-color: rgba(0, 0, 0, .5);
+
+}
+
+.botones li:hover .menu-vertical{
+	display: block;
+} 
+
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	
+	display: block;
+	color: white;
+	padding: 3px;
+	text-decoration: none;
+}
+
+/*--------------------------------*/
+
+section{
+	position:relative;
+	margin:auto;
+	width:800px;
+	height:580px;
+	}
+
+article{
+	position:relative;
+	margin: auto;
+	top:0;
+	max-width: 1000px;
+	height:600px;
+	}
+
+article #Preguntas{
+		position:absolute;
+		margin: auto;
+		top:0;
+		max-width: 500px;
+		height:600px;
+		}
+	
+	
+article h1{
+	font-family: 'Kaushan Script', cursive;
+	font-size:40px;
+	margin:20px;
+	}
+	
+article p img{
+	float:left;
+	margin-right:20px;
+	}
+	
+article p {
+	margin:5px 20px;
+	font-size:14px;
+	text-align:justify;
+	
+	}
+	
+aside#der h1{
+	width:200px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background:rgba(100,0,255,1);
+	color:white;
+	margin-bottom:5px;
+	}
+	
+
+aside#der input[type="text"]{
+	background:url(usuario.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size:contain;
+	}
+	
+aside#der input[type="password"]{
+	background:url(password.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size:contain;
+	}
+	
+aside#der input[type="submit"]{
+	width:200px;
+	background:rgba(100,0,100,.5);
+	border:0;
+	}
+
+aside#Mockup {
+	position:absolute;
+	margin: auto;
+	right:0;
+	top:0;
+	width:200px;
+	height:453px;
+}
+/*--- ESTILO QUEST-----------*/
+
+
+/*---------------------------*/
+
+/*--------------------------------*/
+footer{
+	margin: auto;
+	width:100%;
+	height:40px;
+	background:rgba(100,0,255,1);
+	text-align:center;
+	line-height: 40px;
+	color:white;
+	position:fixed;
+	bottom: 0px;
+ 	cursor:pointer;
+	}
+
+button{
+	height: 65px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #ab4493; 
+	border-color: #ab4493; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 170px;   
+  cursor: pointer;
+}
+
+
